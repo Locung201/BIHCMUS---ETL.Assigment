@@ -1,34 +1,41 @@
-<h1 align="center">📊 CSC12107 – BÁO CÁO ETL.Assigment 📊</h1>
+<h1 align="center">📊 CSC12107 – ETL.Assigment REPORT 📊</h1>
 
 ---
 
-## 📘 THÔNG TIN VỀ ĐỒ ÁN
+## 📘 PROJECT INFORMATION
 
-- **📚 Mã học phần**: CSC12107
-- **📖 Tên học phần**: Hệ thống thông tin phục vụ trí tuệ kinh doanh
-- **📑 Tên đồ án**: BÁO CÁO ETL.Assigment
+- **📚 Course Code**: CSC12107
+- **📖 Course Title**: Business Intelligence Systems
+- **📑 Project Title**: ETL.Assigment REPORT
+
+### 📝 Submission Format
+
+- **📄 Report**: (.doc, .ppt)
+- **💻 Source Demo / 🎥 Video Demo**
+- **📦 MSSV_SSIS**
+
 ---
 
-## 📝 Mô tả Dự án
+## 📝 Project Description
 
-Dự án **ETL với SSIS** bao gồm các bước sau để thực hiện quá trình rút trích, làm sạch và nạp dữ liệu:
+This **SSIS ETL project** includes the following steps for data extraction, cleansing, and loading:
 
-1. **🛠️ Extract dữ liệu** từ **Excel** (Sheet **Học sinh** và **LopHoc**) và đưa vào **Stage** theo phương pháp **Incremental Extract**.
-2. **⚙️ Load vào Stage**:
-   - Làm sạch dữ liệu, loại bỏ các bản ghi cũ, cập nhật dữ liệu mới.
-3. **🚀 Load từ Stage sang NDS**:
-   - Chuyển dữ liệu từ **Stage** sang các bảng **LopHoc_NDS** và **HocSinh** trong **NDS** sau khi đã **profiling** và **làm sạch**.
+1. **🛠️ Extract Data** from **Excel** (Sheets **Học sinh** and **LopHoc**) and load it into **Stage** using the **Incremental Extract** method.
+2. **⚙️ Load to Stage**:
+   - Cleanse the data, remove old records, and update with new data.
+3. **🚀 Load from Stage to NDS**:
+   - Load data from **Stage** into **LopHoc_NDS** and **HocSinh** tables in **NDS** after profiling and cleansing the data.
 4. **🗂️ Metadata**:
-   - Ghi lại thời gian ETL (`LSET`, `CET`) để kiểm soát dữ liệu rút trích và nạp chính xác.
+   - Log the ETL timestamps (`LSET`, `CET`) to manage and track data extraction accuracy.
 
 ---
 
-## 👩‍🏫 Giảng viên phụ trách
+## 👩‍🏫 Supervisors
 
-- **Cô Hồ Thị Hoàng Vy**
-- **Cô Tiết Gia Hồng**
-- **Cô Nguyễn Ngọc Minh Châu**
+- **Ms. Hồ Thị Hoàng Vy**
+- **Ms. Tiết Gia Hồng**
+- **Ms. Nguyễn Ngọc Minh Châu**
 
 ---
 
-> **Ghi chú**: Dự án tập trung vào các kỹ thuật ETL cơ bản, sử dụng **SSIS** để quản lý và chuyển đổi dữ liệu một cách hiệu quả từ các nguồn khác nhau.
+> **Note**: This project focuses on basic ETL techniques using **SSIS** to efficiently manage and transform data from various sources.
